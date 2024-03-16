@@ -15,7 +15,7 @@ public class Calculadora {
         return num1 * num2;
     }
 
-    //Método que divide dos enteros
+    //Método que divide dos numeros con decimales
     public double dividir(int num1, int num2) {
         if (num2 == 0) {
             throw new ArithmeticException("ERROR. No se puede dividir el número por cero");
